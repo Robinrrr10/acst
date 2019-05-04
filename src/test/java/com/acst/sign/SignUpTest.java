@@ -1,5 +1,6 @@
 package com.acst.sign;
 
+import com.acst.sign.constant.SignUpConstant;
 import com.acst.sign.entry.SignUpEntry;
 import com.acst.sign.entry.SignUpResponse;
 import com.acst.sign.validator.ValidateSignUpResponse;
@@ -11,16 +12,29 @@ public class SignUpTest {
     SignUpHelper signUpHelper = new SignUpHelper();
     ValidateSignUpResponse validateSignUpResponse = new ValidateSignUpResponse();
     SignUpTestHelper signUpTestHelper = new SignUpTestHelper();
-    @Test
+
+    @Test(description = "Sign up for new user and verify whether signUp is successfull or not", groups = {"sanity", "regression"})
     public void newUserSignUpSuccessfull(){
-        /*SignUpResponse signUpResponse = signUpHelper.doSignUp();
+        SignUpResponse signUpResponse = signUpHelper.doSignUp(SignUpConstant.NAME, signUpTestHelper.getRandomEmail(), SignUpConstant.PASSWORD, SignUpConstant.AADHAAR);
         System.out.print("Status message is:"+signUpResponse.getStatus().getStatusMessage());
-        validateSignUpResponse.assertSignUpSuccessfull(signUpResponse);*/
+        validateSignUpResponse.assertSignUpSuccessfull(signUpResponse);
     }
 
-    @Test
+    @Test(description = "Sign up for already signedup user and verify", groups = {"sanity", "regression"})
     public void signUpAlreadySignUpedUser(){
-        String mm = signUpTestHelper.getRandomEmail();
-        System.out.println("emial is:"+mm);
+        final String emailId = signUpTestHelper.getRandomEmail();
+        SignUpResponse signUpResponse = signUpHelper.doSignUp(SignUpConstant.NAME, emailId, SignUpConstant.PASSWORD, SignUpConstant.AADHAAR);
+        System.out.println("Status message is:"+signUpResponse.getStatus().getStatusMessage());
+        validateSignUpResponse.assertSignUpSuccessfull(signUpResponse);
+        SignUpResponse signUpResponse2 = signUpHelper.doSignUp(SignUpConstant.NAME, emailId, SignUpConstant.PASSWORD, SignUpConstant.AADHAAR);
+        System.out.println("Status message is:"+signUpResponse2.getStatus().getStatusMessage());
+        validateSignUpResponse.assertAlreadySignUpedUser(signUpResponse2);
+    }
+
+    @Test(description = "Sign up without mandatory parameter and verify", groups = {"regression"})
+    public void signUpWithoutMandatoryParameter(){
+        SignUpResponse signUpResponse = signUpHelper.doSignUp(SignUpConstant.NAME, null, SignUpConstant.PASSWORD, SignUpConstant.AADHAAR);
+        System.out.print("Status message is:"+signUpResponse.getStatus().getStatusMessage());
+        validateSignUpResponse.assertSignUpWithoutMandatoryParameter(signUpResponse);
     }
 }
