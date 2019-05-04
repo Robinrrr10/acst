@@ -22,5 +22,6 @@ public class SignUpTest {
     public void signUpAlreadySignUpedUser(){
         String mm = signUpTestHelper.getRandomEmail();
         System.out.println("emial is:"+mm);
+
     }
 }
