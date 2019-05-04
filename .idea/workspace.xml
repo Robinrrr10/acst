@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="425152a9-0f35-4e5a-b210-426163d8b236" name="Default Changelist" comment="" />
+    <list default="true" id="425152a9-0f35-4e5a-b210-426163d8b236" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,13 +23,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1783" />
+          <entry key="java" value="1784" />
+          <entry key="txt" value="34" />
           <entry key="xml" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1783" />
+          <entry key="JAVA" value="1784" />
+          <entry key="PLAIN_TEXT" value="34" />
           <entry key="XML" value="15" />
         </counts>
       </usages-collector>
@@ -113,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="289">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,6 +176,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="robinrrr10" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -185,8 +195,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/acst/commons/entry/Status.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/validator/ValidateSignUpResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTestHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java" />
       </list>
     </option>
   </component>
@@ -233,7 +243,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556973543589" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556973834784" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -312,6 +322,14 @@
       <option name="presentableId" value="Default" />
       <updated>1556961194641</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commmit second one">
+      <created>1556973770482</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556973770482</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -345,16 +363,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329653" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329653" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.329653" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,6 +395,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commmit" />
+    <MESSAGE value="First commmit second one" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commmit second one" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/com/acst/sign/client/SignUp.java">
@@ -468,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="289">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
