@@ -7,11 +7,18 @@ import com.acst.sign.validator.ValidateSignUpResponse;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
 public class SignUpTest {
 
-    SignUpHelper signUpHelper = new SignUpHelper();
+    SignUpHelper signUpHelper;
+
     ValidateSignUpResponse validateSignUpResponse = new ValidateSignUpResponse();
     SignUpTestHelper signUpTestHelper = new SignUpTestHelper();
+
+    public SignUpTest() throws IOException {
+        signUpHelper = new SignUpHelper();
+    }
 
     @Test(description = "Sign up for new user and verify whether signUp is successfull or not", groups = {"sanity", "regression"})
     public void newUserSignUpSuccessfull(){

@@ -3,9 +3,15 @@ package com.acst.sign;
 import com.acst.sign.entry.SignUpEntry;
 import com.acst.sign.entry.SignUpResponse;
 
+import java.io.IOException;
+
 public class SignUpHelper {
 
-    SignBaseClient signBaseClient = new SignBaseClient();
+    SignBaseClient signBaseClient;
+
+    public SignUpHelper() throws IOException {
+        signBaseClient = new SignBaseClient();
+    }
 
     public SignUpResponse doSignUp(String name, String email, String password, Long aadhaar){
         SignUpEntry signUpEntry = new SignUpEntry();
