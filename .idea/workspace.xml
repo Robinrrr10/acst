@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="425152a9-0f35-4e5a-b210-426163d8b236" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/acst/commons/entry/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/conf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/conf.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/acst/sign/SignBaseClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/acst/sign/SignBaseClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/acst/commons/GetProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/acst/commons/GetProperties.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,7 +25,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3119" />
+          <entry key="java" value="3122" />
           <entry key="properties" value="70" />
           <entry key="txt" value="34" />
           <entry key="xml" value="39" />
@@ -39,7 +33,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3119" />
+          <entry key="JAVA" value="3122" />
           <entry key="PLAIN_TEXT" value="34" />
           <entry key="Properties" value="70" />
           <entry key="XML" value="39" />
@@ -101,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -146,11 +140,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/commons/GetProperties.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,13 +216,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/validator/ValidateSignUpResponse.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/main/java/GetProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/acst/commons/GetProperties.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/acst/commons/entry/Context.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java" />
         <option value="$PROJECT_DIR$/src/main/resources/conf.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/acst/commons/GetProperties.java" />
       </list>
     </option>
   </component>
@@ -309,16 +303,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="entry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
               <item name="sign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -327,27 +311,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sign" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,7 +331,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557073789833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557074062457" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -491,9 +454,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 10h 36m 36s.xml">
-      <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 10h 41m 30s.xml">
       <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
@@ -521,6 +481,9 @@
     <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 11h 07m 43s.xml">
       <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 21h 59m 24s.xml">
+      <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -531,15 +494,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.73860914" visible="true" weight="0.2647504" />
-      <window_info id="Structure" order="6" sideWeight="0.2613909" side_tool="true" visible="true" weight="0.2647504" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.6686838" visible="true" weight="0.31862745" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.33131617" side_tool="true" visible="true" weight="0.31862745" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.73803526" visible="true" weight="0.2647504" />
+      <window_info id="Structure" order="6" sideWeight="0.26196474" side_tool="true" visible="true" weight="0.2647504" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.6679274" visible="true" weight="0.35130718" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.33207262" side_tool="true" visible="true" weight="0.35130718" />
       <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49546143" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.7934947" weight="0.49509802" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.79273826" weight="0.49509802" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -628,16 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/commons/GetProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -681,16 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -705,6 +648,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/commons/GetProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

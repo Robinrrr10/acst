@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class GetProperties {
 
-    private static String filePath = "C:\\Users\\dsr\\IdeaProjects\\acst\\src\\main\\resources\\conf.properties";
+    private static String filePath = "src/main/resources/conf.properties";
     public static String getProperties(String key) throws IOException {
         FileReader fileReader = new FileReader(filePath);
         Properties properties = new Properties();
