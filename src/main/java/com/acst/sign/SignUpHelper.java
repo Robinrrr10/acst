@@ -1,5 +1,6 @@
 package com.acst.sign;
 
+import com.acst.commons.entry.Context;
 import com.acst.sign.entry.SignUpEntry;
 import com.acst.sign.entry.SignUpResponse;
 
@@ -8,6 +9,7 @@ import java.io.IOException;
 public class SignUpHelper {
 
     SignBaseClient signBaseClient;
+
 
     public SignUpHelper() throws IOException {
         signBaseClient = new SignBaseClient();
