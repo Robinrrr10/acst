@@ -1,7 +1,6 @@
 pipeline {
     agent any
         stages {
-        def mvnHome
             stage('Start'){
                 steps {
                     echo "Starting the pipeline"
@@ -18,6 +17,7 @@ pipeline {
             }
             stage('testing') {
                 steps {
+                    def mvnHome
                     mvnHome = tool 'MAVEN_HOME'
                     echo "Start testings"
                     sh "'{$mvnHome}/bin/mvn' clean install"
