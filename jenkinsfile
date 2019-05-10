@@ -1,0 +1,50 @@
+pipeline {
+    agent any
+        stages {
+            stage('Start'){
+                steps {
+                    echo "Starting the pipeline"
+                }
+            }
+            stage('Repository') {
+                steps {
+                    echo "start for git repository download"
+                }
+                steps {
+                    echo "downloading"
+                }
+                steps {
+                    echo "Git repository has been downloaded"
+                }
+            }
+            stage('testing') {
+                steps {
+                    echo "Start testings"
+                }
+                steps {
+                    echo "Testing"
+                }
+                steps {
+                    echo "Done testing"
+                }
+            }
+            stege('Deployment') {
+                steps {
+                    echo "Start deployment"
+                }
+                steps {
+                    echo "Deploying"
+                }
+                steps {
+                    echo "Done deployment"
+                }
+            }
+            stage('End'){
+                steps {
+                    echo "Ending"
+                }
+            }
+
+        }
+
+}
