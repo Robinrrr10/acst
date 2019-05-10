@@ -19,6 +19,10 @@ pipeline {
             stage('testing') {
                 steps {
                     echo "${env.MAVEN_HOME}"
+                    println"${env.MAVEN_HOME}"
+                    println env.MAVEN_HOME
+                    println MAVEN_HOME
+                    println"${MAVEN_HOME}"
                     script{
                          mavenHome="${env.MAVEN_HOME}"
                     }
