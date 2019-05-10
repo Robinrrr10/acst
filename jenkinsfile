@@ -51,7 +51,7 @@ pipeline {
                     echo "Start deployment in web server"
                     sh "ls"
                     sh "pwd"
-                    sshagent(['0c88588a-341f-4a4f-8b69-253d6b9b80ed']) {
+                    sshagent(['bd41b78c-0ad5-479d-b1d5-aef155a895b8']) {
                         sh 'scp target/*.war 192.168.40.123:/home/tmp'
                     }
                     echo "Deployment done"
