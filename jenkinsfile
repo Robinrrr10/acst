@@ -28,7 +28,7 @@ pipeline {
                     }
                     echo "$mavenHome"
                     echo "Start testings"
-                    sh "'{$mavenHome}/bin/mvn' clean install"
+                    sh "'$mavenHome/bin/mvn' clean install"
                     echo "Done testing"
                 }
             }
