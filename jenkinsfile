@@ -18,9 +18,11 @@ pipeline {
             }
             stage('testing') {
                 steps {
+                    echo "${MAVEN_HOME}"
                     script{
                          mavenHome="${MAVEN_HOME}"
                     }
+                    echo "$mavenHome"
                     echo "Start testings"
                     sh "'{$mavenHome}/bin/mvn' clean install"
                     echo "Done testing"
