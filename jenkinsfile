@@ -52,7 +52,7 @@ pipeline {
                     sh "ls"
                     sh "pwd"
                     sshagent(['bd41b78c-0ad5-479d-b1d5-aef155a895b8']) {
-                        sh 'scp -o StrictHostKeyChecking=no target/*.war 192.168.40.123:/home/tmp'
+                        sh 'scp target/*.war 192.168.40.123:/home/tmp'
                     }
                     echo "Deployment done"
                 }
