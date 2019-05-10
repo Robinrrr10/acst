@@ -7,34 +7,54 @@ pipeline {
                     echo "Starting the pipeline"
                 }
             }
-            stage('Repository') {
+            stage('initialising variable'){
                 steps {
-                    echo "start for git repository download"
+                    script{
+                              mavenHome="${env.MAVEN_HOME}"
+                           }
+                }
+            }
+            stage('Getting Testing Repository') {
+                steps {
+                    echo "start for git acst repository download"
                     git branch: 'signtest',
                         credentialsId: 'f22b3b0c-7f1d-40a3-a2fe-a42ecc502e4d',
                         url: 'https://github.com/Robinrrr10/acst.git'
-                    echo "Git downloaded successfully"
+                    echo "Git acst downloaded successfully"
                 }
             }
             stage('testing') {
                 steps {
-                    echo "${env.MAVEN_HOME}"
-                    println"${env.MAVEN_HOME}"
-                    println env.MAVEN_HOME
-                    println MAVEN_HOME
-                    println"${MAVEN_HOME}"
-                    script{
-                         mavenHome="${env.MAVEN_HOME}"
-                    }
                     echo "$mavenHome"
                     echo "Start testings"
-                    sh "'$mavenHome/bin/mvn' clean install"
+                    sh "'$mavenHome/bin/mvn' clean test"
                     echo "Done testing"
                 }
             }
+            stage('Getting Web acs Repository') {
+                    steps {
+                        echo "start for acs git repository download"
+                        git branch: 'signdevelop', credentialsId: 'f22b3b0c-7f1d-40a3-a2fe-a42ecc502e4d', url: 'https://bitbucket.org/robinrrr10/acs.git'
+                        echo "Git acs repository downloaded successfully"
+                    }
+            }
+            stage('Building war') {
+                    steps {
+                       echo "$mavenHome"
+                       echo "Start building acs"
+                       sh "'$mavenHome/bin/mvn' clean install package"
+                       echo "Done building"
+                    }
+            }
             stage('Deployment') {
                 steps {
-                    echo "Start deployment"
+                    echo "Start deployment in web server"
+                    sh "ls"
+                    sh "pwd"
+                    sshagent(['0c88588a-341f-4a4f-8b69-253d6b9b80ed']) {
+                        sh 'scp target/*.war 192.168.40.123:/home/tmp'
+                    }
+                    echo "Deployment done"
                 }
             }
             stage('End'){
