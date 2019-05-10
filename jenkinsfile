@@ -9,11 +9,17 @@ pipeline {
             stage('Repository') {
                 steps {
                     echo "start for git repository download"
+                    git branch: 'signtest',
+                        credentialsId: 'f22b3b0c-7f1d-40a3-a2fe-a42ecc502e4d',
+                        url: 'https://github.com/Robinrrr10/acst.git'
+                    echo "Git downloaded successfully"
                 }
             }
             stage('testing') {
                 steps {
                     echo "Start testings"
+                    sh 'mvn clean install'
+                    echo "Done testing"
                 }
             }
             stage('Deployment') {
