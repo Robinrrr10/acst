@@ -1,3 +1,4 @@
+def mavenHome
 pipeline {
     agent any
         stages {
@@ -18,7 +19,8 @@ pipeline {
             stage('testing') {
                 steps {
                     echo "Start testings"
-                    sh "'${MAVEN_HOME}/bin/mvn' clean install"
+                    mavenHome = "${MAVEN_HOME}"
+                    sh "'{$mavenHome}/bin/mvn' clean install"
                     echo "Done testing"
                 }
             }
