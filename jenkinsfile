@@ -18,9 +18,9 @@ pipeline {
             }
             stage('testing') {
                 steps {
-                    echo "${MAVEN_HOME}"
+                    echo "${env.MAVEN_HOME}"
                     script{
-                         mavenHome="${MAVEN_HOME}"
+                         mavenHome="${env.MAVEN_HOME}"
                     }
                     echo "$mavenHome"
                     echo "Start testings"
