@@ -17,10 +17,8 @@ pipeline {
             }
             stage('testing') {
                 steps {
-                    def mvnHome
-                    mvnHome = tool 'MAVEN_HOME'
                     echo "Start testings"
-                    sh "'{$mvnHome}/bin/mvn' clean install"
+                    sh "'${MAVEN_HOME}/bin/mvn' clean install"
                     echo "Done testing"
                 }
             }
