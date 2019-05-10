@@ -16,7 +16,7 @@ pipeline {
                     echo "Start testings"
                 }
             }
-            stege('Deployment') {
+            stage('Deployment') {
                 steps {
                     echo "Start deployment"
                 }
