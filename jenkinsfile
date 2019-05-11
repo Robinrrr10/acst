@@ -49,7 +49,7 @@ pipeline {
             stage('Deployment') {
                 steps {
                     echo "Start deployment in web server"
-                    build 'acs-deployment'
+                    build '../WebApps-Deployment-Jobs/acs-deployment'
                     echo "Deployment done"
                 }
             }
