@@ -49,7 +49,7 @@ pipeline {
             stage('Deployment') {
                 steps {
                     echo "Start deployment in web server"
-                    sshagent(['5a662e07-4092-4e16-9620-36a372e7751c']) {
+                    sshagent(['bd41b78c-0ad5-479d-b1d5-aef155a895b8']) {
                         sh 'scp -o StrictHostKeyChecking=no target/*.war 192.168.40.123:/home/tmp'
                     }
                     echo "Deployment done"
