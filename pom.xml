@@ -66,21 +66,41 @@
                     <groupId>org.jacoco</groupId>
                     <artifactId>jacoco-maven-plugin</artifactId>
                     <version>0.7.8</version>
-                    <configuration>
-                        <address>192.168.40.123</address>
-                        <destFile>target/jacoco.exec</destFile>
-                        <port>10001</port>
-                        <reset>true</reset>
-                        <append>false</append>
-                    </configuration>
                     <executions>
                         <execution>
                             <phase>post-integration-test</phase>
                             <goals>
                                 <goal>dump</goal>
                             </goals>
+                            <configuration>
+                                <address>192.168.40.123</address>
+                                <destFile>target/jacoco.exec</destFile>
+                                <port>10001</port>
+                                <reset>false</reset>
+                                <append>false</append>
+                            </configuration>
+                        </execution>
+                        <execution>
+                            <id>merge-test-data</id>
+                            <goals>
+                                <goal>merge</goal>
+                            </goals>
+                            <configuration>
+                                <destFile>target/jacoco-it.exec</destFile>
+                                <fileSets>
+                                    <fileSet implementation="org.apache.maven.shared.model.fileset.FileSet">
+                                        <directory>target</directory>
+                                        <includes>
+                                            <include>*it*.exec</include>
+                                        </includes>
+                                    </fileSet>
+                                </fileSets>
+                            </configuration>
                         </execution>
                     </executions>
+                    <configuration>
+                        <append>true</append>
+                    </configuration>
                 </plugin>
             </plugins>
         </build>
