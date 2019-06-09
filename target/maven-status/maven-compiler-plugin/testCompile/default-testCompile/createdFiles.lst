@@ -1,0 +1,4 @@
+com\acst\sign\SignUpTestHelper.class
+com\acst\sign\constant\SignUpConstant.class
+com\acst\sign\SignUpTest.class
+com\acst\sign\validator\ValidateSignUpResponse.class

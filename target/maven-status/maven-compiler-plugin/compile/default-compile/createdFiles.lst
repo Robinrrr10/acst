@@ -1,0 +1,8 @@
+com\acst\commons\entry\Status.class
+com\acst\commons\GetProperties.class
+com\acst\sign\entry\SignUpEntry.class
+com\acst\sign\SignUpHelper.class
+com\acst\sign\entry\SignUpResponse.class
+com\acst\commons\entry\Context.class
+com\acst\sign\client\SignUp.class
+com\acst\sign\SignBaseClient.class
