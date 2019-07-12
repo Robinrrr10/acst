@@ -1,0 +1,64 @@
+def mavenHome
+pipeline {
+    agent any
+        stages {
+            stage('Start'){
+                steps {
+                    echo "Starting the pipeline"
+                }
+            }
+            stage('initialising variable'){
+                steps {
+                    script{
+                              mavenHome="${env.MAVEN_HOME}"
+                           }
+                }
+            }
+            stage('Getting Testing Repository') {
+                steps {
+                    echo "start for git acst repository download"
+                    git branch: 'signtest',
+                        credentialsId: 'f22b3b0c-7f1d-40a3-a2fe-a42ecc502e4d',
+                        url: 'https://github.com/Robinrrr10/acst.git'
+                    echo "Git acst downloaded successfully"
+                }
+            }
+            stage('testing') {
+                steps {
+                    echo "$mavenHome"
+                    echo "Start testings"
+                    sh "'$mavenHome/bin/mvn' clean test"
+                    echo "Done testing"
+                }
+            }
+            stage('Getting Web acs Repository') {
+                    steps {
+                        echo "start for acs git repository download"
+                        git branch: 'signdevelop', credentialsId: 'f22b3b0c-7f1d-40a3-a2fe-a42ecc502e4d', url: 'https://bitbucket.org/robinrrr10/acs.git'
+                        echo "Git acs repository downloaded successfully"
+                    }
+            }
+            stage('Building war') {
+                    steps {
+                       echo "$mavenHome"
+                       echo "Start building acs"
+                       sh "'$mavenHome/bin/mvn' clean install package"
+                       echo "Done building"
+                    }
+            }
+            stage('Deployment') {
+                steps {
+                    echo "Start deployment in web server"
+                    build '../WebApps-Deployment-Jobs/acs-deployment'
+                    echo "Deployment done"
+                }
+            }
+            stage('End'){
+                steps {
+                    echo "Ending"
+                }
+            }
+
+        }
+
+}

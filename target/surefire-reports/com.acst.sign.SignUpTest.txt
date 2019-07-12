@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: com.acst.sign.SignUpTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 17.472 sec <<< FAILURE!
+newUserSignUpSuccessfull(com.acst.sign.SignUpTest)  Time elapsed: 7.813 sec  <<< FAILURE!
+javax.ws.rs.InternalServerErrorException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:466)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:311)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:717)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:676)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:222)
+	at com.sun.proxy.$Proxy14.doSignUp(Unknown Source)
+	at com.acst.sign.SignBaseClient.signUp(SignBaseClient.java:23)
+	at com.acst.sign.SignUpHelper.doSignUp(SignUpHelper.java:24)
+	at com.acst.sign.SignUpTest.newUserSignUpSuccessfull(SignUpTest.java:26)
+
+signUpAlreadySignUpedUser(com.acst.sign.SignUpTest)  Time elapsed: 2.729 sec  <<< FAILURE!
+javax.ws.rs.InternalServerErrorException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.cxf.jaxrs.client.AbstractClient.convertToWebApplicationException(AbstractClient.java:466)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.checkResponse(ClientProxyImpl.java:311)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.handleResponse(ClientProxyImpl.java:717)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:676)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:222)
+	at com.sun.proxy.$Proxy14.doSignUp(Unknown Source)
+	at com.acst.sign.SignBaseClient.signUp(SignBaseClient.java:23)
+	at com.acst.sign.SignUpHelper.doSignUp(SignUpHelper.java:24)
+	at com.acst.sign.SignUpTest.signUpAlreadySignUpedUser(SignUpTest.java:34)
+

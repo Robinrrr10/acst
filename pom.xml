@@ -13,8 +13,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>8</source>
-                    <target>8</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
         </plugins>
@@ -35,5 +35,75 @@
         </dependency>
 
     </dependencies>
-
+    <profiles>
+    <profile>
+        <id>staging</id>
+        <properties>
+            <build.profile.id>staging</build.profile.id>
+            <skip.integration.tests>true</skip.integration.tests>
+            <skip.unit.tests>false</skip.unit.tests>
+            <jacoco.skip>false</jacoco.skip>
+            <tomcat.host>192.168.40.123</tomcat.host>
+        </properties>
+        <build>
+            <testResources>
+                <testResource>
+                    <directory>src/test/resources</directory>
+                    <filtering>true</filtering>
+                </testResource>
+            </testResources>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <configuration>
+                        <includes>
+                            <include>**/*SignUpTest.java</include>
+                        </includes>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>0.7.8</version>
+                    <executions>
+                        <execution>
+                            <phase>post-integration-test</phase>
+                            <goals>
+                                <goal>dump</goal>
+                            </goals>
+                            <configuration>
+                                <address>192.168.40.123</address>
+                                <destFile>target/jacoco.exec</destFile>
+                                <port>10001</port>
+                                <reset>false</reset>
+                                <append>false</append>
+                            </configuration>
+                        </execution>
+                        <execution>
+                            <id>merge-test-data</id>
+                            <goals>
+                                <goal>merge</goal>
+                            </goals>
+                            <configuration>
+                                <destFile>target/jacoco-it.exec</destFile>
+                                <fileSets>
+                                    <fileSet implementation="org.apache.maven.shared.model.fileset.FileSet">
+                                        <directory>target</directory>
+                                        <includes>
+                                            <include>*it*.exec</include>
+                                        </includes>
+                                    </fileSet>
+                                </fileSets>
+                            </configuration>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <append>true</append>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+</profiles>
 </project>

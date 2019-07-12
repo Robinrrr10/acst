@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="425152a9-0f35-4e5a-b210-426163d8b236" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,85 +16,91 @@
     <session id="-331156153">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.121" value="1" />
+          <entry key="project.open.time.130" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.71" value="1" />
+          <entry key="project.open.time.72" value="1" />
+          <entry key="project.open.time.83" value="1" />
+          <entry key="project.open.time.91" value="1" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1784" />
+          <entry key="java" value="3122" />
+          <entry key="jenkinsfile" value="1167" />
+          <entry key="properties" value="70" />
           <entry key="txt" value="34" />
-          <entry key="xml" value="15" />
+          <entry key="xml" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1784" />
-          <entry key="PLAIN_TEXT" value="34" />
-          <entry key="XML" value="15" />
+          <entry key="JAVA" value="3122" />
+          <entry key="PLAIN_TEXT" value="1201" />
+          <entry key="Properties" value="70" />
+          <entry key="XML" value="112" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="18" />
+          <entry key="jenkinsfile" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="18" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="245">
+              <caret line="83" column="52" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/entry/SignUpEntry.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state>
+              <caret column="30" selection-start-column="30" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/entry/SignUpResponse.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/client/SignUp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="23" />
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,8 +111,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            <state relative-caret-position="258">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,11 +120,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="275">
+              <caret line="23" column="57" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/client/SignUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/commons/GetProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTestHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="94" selection-start-line="9" selection-start-column="94" selection-end-line="9" selection-end-column="94" />
+            <state relative-caret-position="170">
+              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,20 +171,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/validator/ValidateSignUpResponse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+            <state relative-caret-position="289">
+              <caret line="18" column="53" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/commons/entry/Status.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -173,6 +193,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>getRandomEmail</find>
+      <find>assertSignUpSuccessfull</find>
+      <find>SignUp</find>
+      <find>SignBaseClient</find>
+      <find>SignUpTest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -190,15 +214,45 @@
         <option value="$PROJECT_DIR$/src/main/java/com/acst/sign/entry/SignUpEntry.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/acst/sign/entry/SignUpResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/acst/sign/client/SignUp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/acst/commons/entry/Status.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/validator/ValidateSignUpResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/constant/SignUpConstant.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTestHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/validator/ValidateSignUpResponse.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/GetProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/acst/commons/entry/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/acst/commons/GetProperties.java" />
+        <option value="$PROJECT_DIR$/jenkinsfile" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="acst" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="acst" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -212,6 +266,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="acst" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="acst" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -220,21 +285,59 @@
               <item name="acst" type="b2602c69:ProjectViewProjectNode" />
               <item name="acst" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
             <path>
-              <item name="acst" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="acst" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="acst" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="acst" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="acst" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acst" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sign" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,9 +346,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556973971173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560057772114" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.acst.commons" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dsr\IdeaProjects\acst\src\main\java\com\acst\commons\entry" />
       <recent name="C:\Users\dsr\IdeaProjects\acst\src\main\java\com\acst\sign\entry" />
@@ -263,7 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SignUpTest.signUpAlreadySignUpedUser">
+  <component name="RunManager" selected="TestNG.SignUpTest.newUserSignUpSuccessfull">
     <configuration name="SignUpTest.newUserSignUpSuccessfull" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="acst" />
       <extension name="coverage">
@@ -300,14 +409,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SignUpTest.signUpWithoutMandatoryParameter" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="acst" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.acst.sign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.acst.sign" />
+      <option name="MAIN_CLASS_NAME" value="com.acst.sign.SignUpTest" />
+      <option name="METHOD_NAME" value="signUpWithoutMandatoryParameter" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.SignUpTest.newUserSignUpSuccessfull" />
       <item itemvalue="TestNG.SignUpTest.signUpAlreadySignUpedUser" />
+      <item itemvalue="TestNG.SignUpTest.signUpWithoutMandatoryParameter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SignUpTest.signUpAlreadySignUpedUser" />
         <item itemvalue="TestNG.SignUpTest.newUserSignUpSuccessfull" />
+        <item itemvalue="TestNG.SignUpTest.signUpWithoutMandatoryParameter" />
+        <item itemvalue="TestNG.SignUpTest.signUpAlreadySignUpedUser" />
       </list>
     </recent_temporary>
   </component>
@@ -329,68 +458,78 @@
       <option name="project" value="LOCAL" />
       <updated>1556973770482</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commmit second one">
+      <created>1556973882981</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556973882981</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.04 at 15h 27m 51s.xml">
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 10h 43m 13s.xml">
       <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.04 at 15h 28m 40s.xml">
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 10h 45m 14s.xml">
       <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.04 at 16h 27m 47s.xml">
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 10h 56m 43s.xml">
       <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_signUpAlreadySignUpedUser - 2019.05.04 at 16h 56m 21s.xml">
-      <configuration name="SignUpTest.signUpAlreadySignUpedUser" configurationId="TestNG" />
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 11h 01m 10s.xml">
+      <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_signUpAlreadySignUpedUser - 2019.05.04 at 17h 38m 55s.xml">
-      <configuration name="SignUpTest.signUpAlreadySignUpedUser" configurationId="TestNG" />
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 11h 03m 21s.xml">
+      <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_signUpAlreadySignUpedUser - 2019.05.04 at 17h 48m 07s.xml">
-      <configuration name="SignUpTest.signUpAlreadySignUpedUser" configurationId="TestNG" />
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 11h 06m 20s.xml">
+      <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_signUpAlreadySignUpedUser - 2019.05.04 at 17h 49m 18s.xml">
-      <configuration name="SignUpTest.signUpAlreadySignUpedUser" configurationId="TestNG" />
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 11h 07m 08s.xml">
+      <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_signUpAlreadySignUpedUser - 2019.05.04 at 18h 01m 07s.xml">
-      <configuration name="SignUpTest.signUpAlreadySignUpedUser" configurationId="TestNG" />
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 11h 07m 43s.xml">
+      <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_signUpAlreadySignUpedUser - 2019.05.04 at 18h 02m 03s.xml">
-      <configuration name="SignUpTest.signUpAlreadySignUpedUser" configurationId="TestNG" />
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 21h 59m 24s.xml">
+      <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 22h 05m 15s.xml">
+      <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.329653" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.329653" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329653" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.7217848" visible="true" weight="0.19213313" />
+      <window_info id="Structure" order="6" sideWeight="0.27821523" side_tool="true" visible="true" weight="0.19213313" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.6611195" visible="true" weight="0.37745097" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.33888048" side_tool="true" visible="true" weight="0.37745097" />
+      <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49546143" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.79122543" weight="0.49509802" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.13086233" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -402,13 +541,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="First commmit second one" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/com/acst/sign/client/SignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/com/acst/sign/client/SignUp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/entry/SignUpEntry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -420,36 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/client/SignUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -460,20 +563,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/validator/ValidateSignUpResponse.java">
+    <entry file="file://$PROJECT_DIR$/acst.iml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/constant/SignUpConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+        <state relative-caret-position="102">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml" />
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/GetProperties.java" />
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/commons/entry/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/client/SignUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/commons/GetProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="102">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -482,23 +625,143 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTestHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="94" selection-start-line="9" selection-start-column="94" selection-end-line="9" selection-end-column="94" />
+        <state relative-caret-position="170">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/validator/ValidateSignUpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="204">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="83" column="52" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>acst</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.72</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

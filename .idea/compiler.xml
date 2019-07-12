@@ -9,5 +9,8 @@
         <module name="acst" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="acst" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
