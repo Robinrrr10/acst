@@ -2,10 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="425152a9-0f35-4e5a-b210-426163d8b236" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/acst.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/acst.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.acst.sign.SignUpTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.acst.sign.SignUpTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.acst.sign.SignUpTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.acst.sign.SignUpTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.acst.sign.SignUpTest/Command line test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.acst.sign.SignUpTest/Command line test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.acst.sign.SignUpTest/Command line test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.acst.sign.SignUpTest/Command line test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.acst.sign.SignUpTest/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.acst.sign.SignUpTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.acst.sign.SignUpTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.acst.sign.SignUpTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.acst.sign.SignUpTest/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.acst.sign.SignUpTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.acst.sign.SignUpTest/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/com.acst.sign.SignUpTest/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/com.acst.sign.SignUpTest/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/${project.build.directory}/classes/" />
+    <ignored path="$PROJECT_DIR$/${project.build.directory}/test-classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,18 +34,19 @@
     <session id="-331156153">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.121" value="1" />
           <entry key="project.open.time.130" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.71" value="1" />
-          <entry key="project.open.time.72" value="1" />
+          <entry key="project.open.time.72" value="2" />
           <entry key="project.open.time.83" value="1" />
           <entry key="project.open.time.91" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -36,7 +55,7 @@
           <entry key="jenkinsfile" value="1167" />
           <entry key="properties" value="70" />
           <entry key="txt" value="34" />
-          <entry key="xml" value="112" />
+          <entry key="xml" value="217" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -44,7 +63,7 @@
           <entry key="JAVA" value="3122" />
           <entry key="PLAIN_TEXT" value="1201" />
           <entry key="Properties" value="70" />
-          <entry key="XML" value="112" />
+          <entry key="XML" value="217" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -72,8 +91,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="83" column="52" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="52" />
+            <state>
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -99,7 +118,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="289">
               <caret line="25" column="55" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="238">
               <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,7 +142,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="323">
               <caret line="23" column="57" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -197,6 +216,8 @@
       <find>SignUp</find>
       <find>SignBaseClient</find>
       <find>SignUpTest</find>
+      <find>properties</find>
+      <find>skip.int.tests.report</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -277,7 +298,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,65 +308,23 @@
             <path>
               <item name="acst" type="b2602c69:ProjectViewProjectNode" />
               <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="acst" type="b2602c69:ProjectViewProjectNode" />
               <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acst" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acst" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sign" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="surefire-reports" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560057772114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563824751278" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -372,7 +350,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SignUpTest.newUserSignUpSuccessfull">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="SignUpTest.newUserSignUpSuccessfull" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="acst" />
       <extension name="coverage">
@@ -427,13 +405,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="acst" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.SignUpTest.newUserSignUpSuccessfull" />
       <item itemvalue="TestNG.SignUpTest.signUpAlreadySignUpedUser" />
       <item itemvalue="TestNG.SignUpTest.signUpWithoutMandatoryParameter" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.SignUpTest.newUserSignUpSuccessfull" />
         <item itemvalue="TestNG.SignUpTest.signUpWithoutMandatoryParameter" />
         <item itemvalue="TestNG.SignUpTest.signUpAlreadySignUpedUser" />
@@ -469,9 +459,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 10h 43m 13s.xml">
-      <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 10h 45m 14s.xml">
       <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
@@ -499,25 +486,27 @@
     <history-entry file="SignUpTest_newUserSignUpSuccessfull - 2019.05.05 at 22h 05m 15s.xml">
       <configuration name="SignUpTest.newUserSignUpSuccessfull" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_default_ - 2019.06.10 at 22h 50m 10s.xml">
+      <configuration name="&lt;default&gt;" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.7217848" visible="true" weight="0.19213313" />
-      <window_info id="Structure" order="6" sideWeight="0.27821523" side_tool="true" visible="true" weight="0.19213313" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.6611195" visible="true" weight="0.37745097" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.33888048" side_tool="true" visible="true" weight="0.37745097" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.83840305" visible="true" weight="0.19818456" />
+      <window_info id="Structure" order="6" sideWeight="0.16159695" side_tool="true" visible="true" weight="0.19818456" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.6603631" weight="0.4869281" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.20953101" side_tool="true" visible="true" weight="0.14052288" />
       <window_info anchor="bottom" id="Messages" order="2" sideWeight="0.49546143" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.79122543" weight="0.49509802" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.790469" weight="0.49509802" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -596,10 +585,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" selection-start-column="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -640,50 +673,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="30" selection-start-column="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/acst/sign/SignUpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignUpHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/acst/sign/SignBaseClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="83" column="52" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="52" />
         </state>
       </provider>
     </entry>
