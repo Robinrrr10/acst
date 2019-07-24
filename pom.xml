@@ -1,137 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.acbank</groupId>
-    <artifactId>acst</artifactId>
-    <version>1.0</version>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.jacoco</groupId>
-                <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.8.3</version>
-                <executions>
-                    <execution>
-                        <id>pull-test-data</id>
-                        <phase>post-integration-test</phase>
-                        <goals>
-                            <goal>dump</goal>
-                        </goals>
-                        <configuration>
-                            <destFile>${project.build.directory}/jacoco-it-${app.host}:${app.port}.exec</destFile>
-                            <address>${app.host}</address>
-                            <port>${app.port}</port>
-                            <reset>false</reset>
-                            <skip>${skip.dump}</skip>
-                        </configuration>
-                    </execution>
-                    <execution>
-                        <id>merge-test-data</id>
-                        <goals>
-                            <goal>merge</goal>
-                        </goals>
-                        <configuration>
-                            <destFile>target/jacoco-it.exec</destFile>
-                            <skip>${skip.dump}</skip>
-                            <fileSets>
-                                <fileSet implementation="org.apache.maven.shared.model.fileset.FileSet">
-                                    <directory>target</directory>
-                                    <includes>
-                                        <include>*it*.exec</include>
-                                    </includes>
-                                </fileSet>
-                            </fileSets>
-                        </configuration>
-                    </execution>
-                </executions>
-                <configuration>
-                    <append>true</append>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-antrun-plugin</artifactId>
-                <version>1.8</version>
-                <executions>
-                    <execution>
-                        <id>generate-report</id>
-                        <phase>post-integration-test</phase>
-                        <goals>
-                            <goal>run</goal>
-                        </goals>
-                        <configuration>
-                            <skip>${skip.int.tests.report}</skip>
-                            <target>
-                                <taskdef name="report" classname="org.jacoco.ant.ReportTask">
-                                    <classpath path="${basedir}/target/jacoco-jars/org.jacoco.ant.jar"/>
-                                </taskdef>
-                                <mkdir dir="${basedir}/target/coverage-report"/>
-                                <report>
-                                    <executiondata>
-                                        <fileset dir="${basedir}">
-                                            <include name="target/jacoco-it*.exec"/>
-                                        </fileset>
-                                    </executiondata>
-                                    <structure name="jacoco-multi Coverage Project">
-                                        <group name="jacoco-multi">
-                                            <classfiles>
-                                                <fileset dir="target/classes"/>
-                                            </classfiles>
-                                            <sourcefiles encoding="UTF-8">
-                                                <fileset dir="src/main/java"/>
-                                            </sourcefiles>
-                                        </group>
-                                    </structure>
-                                    <html destdir="${basedir}/target/coverage-report/html"/>
-                                    <xml destfile="${basedir}/target/coverage-report/coverage-report.xml"/>
-                                    <csv destfile="${basedir}/target/coverage-report/coverage-report.csv"/>
-                                </report>
-                            </target>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
-        </plugins>
-    </build>
+	<groupId>com.acbank</groupId>
+	<artifactId>acst</artifactId>
+	<version>1.0</version>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-bundle-jaxrs -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-bundle-jaxrs</artifactId>
+			<version>2.7.18</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.14.3</version>
+		</dependency>
+	</dependencies>
 
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-bundle-jaxrs -->
-        <dependency>
-            <groupId>org.apache.cxf</groupId>
-            <artifactId>cxf-bundle-jaxrs</artifactId>
-            <version>2.7.18</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.14.3</version>
-        </dependency>
-
-       <dependency>
-                <groupId>org.jacoco</groupId>
-                <artifactId>org.jacoco.ant</artifactId>
-                <version>0.8.3</version>
-       </dependency>
-
-    </dependencies>
-    <properties>
-        <app.host>${app.host}</app.host>
-        <app.port>${app.port}</app.port>
-        <skip.dump>${skip.dump}</skip.dump>
-        <skip.int.tests.report>${skip.int.tests.report}</skip.int.tests.report>
-    </properties>
-
-
+	<profiles>
+		<profile>
+			<id>jacoco</id>
+			<build>
+				<plugins>
+					<plugin>
+						<artifactId>maven-compiler-plugin</artifactId>
+						<version>3.6.1</version>
+						<configuration>
+							<source>1.8</source>
+							<target>1.8</target>
+							<encoding>UTF-8</encoding>
+						</configuration>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>2.16</version>
+						<configuration>
+							<useSystemClassLoader>false</useSystemClassLoader>
+							<suiteXmlFiles>
+								<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+							</suiteXmlFiles>
+							<reportsDirectory>./test-output/surefire/${timestamp}</reportsDirectory>
+						</configuration>
+					</plugin>
+					<plugin>
+						<groupId>org.jacoco</groupId>
+						<artifactId>jacoco-maven-plugin</artifactId>
+						<version>0.7.6.201602180812</version>
+						<configuration>
+							<destFile>${basedir}/jacoco.exec</destFile>
+							<reset>true</reset>
+						</configuration>
+						<executions>
+							<execution>
+								<id>dump</id>
+								<phase>integration-test</phase>
+								<goals>
+									<goal>dump</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
 </project>
