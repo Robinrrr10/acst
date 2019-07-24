@@ -127,10 +127,10 @@
 
     </dependencies>
     <properties>
-        <app.host>${app.host}</app.host>
-        <app.port>${app.port}</app.port>
-        <skip.dump>${skip.dump}</skip.dump>
-        <skip.int.tests.report>${skip.int.tests.report}</skip.int.tests.report>
+        <app.host>192.168.40.188</app.host>
+        <app.port>9892</app.port>
+        <skip.dump>false</skip.dump>
+        <skip.int.tests.report>false</skip.int.tests.report>
     </properties>
 
 
